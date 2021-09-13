@@ -98,7 +98,7 @@ class _DetailScreenState extends State<DetailScreen> {
                         children: [
                           Container(
                             width: width * 0.3,
-                            child: Text('Name', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
+                            child: Text('Nombre', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
                           ),
                           Container(
                             child: Text(widget.pokemonDetail['name'], style: TextStyle(color: Colors.black, fontSize: 17),),
@@ -113,7 +113,7 @@ class _DetailScreenState extends State<DetailScreen> {
                         children: [
                           Container(
                             width: width * 0.3,
-                            child: Text('Height', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
+                            child: Text('Altura', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
                           ),
                           Container(
                             child: Text(widget.pokemonDetail['height'], style: TextStyle(color: Colors.black, fontSize: 17),),
@@ -128,7 +128,7 @@ class _DetailScreenState extends State<DetailScreen> {
                         children: [
                           Container(
                             width: width * 0.3,
-                            child: Text('Weight', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
+                            child: Text('Peso', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
                           ),
                           Container(
                             child: Text(widget.pokemonDetail['weight'], style: TextStyle(color: Colors.black, fontSize: 17),),
@@ -143,7 +143,7 @@ class _DetailScreenState extends State<DetailScreen> {
                         children: [
                           Container(
                             width: width * 0.3,
-                            child: Text('Spawn Time', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
+                            child: Text('Tiempo de aparición', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
                           ),
                           Container(
                             child: Text(widget.pokemonDetail['spawn_time'], style: TextStyle(color: Colors.black, fontSize: 17),),
@@ -158,7 +158,7 @@ class _DetailScreenState extends State<DetailScreen> {
                         children: [
                           Container(
                             width: width * 0.3,
-                            child: Text('Weakness', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
+                            child: Text('Debilidad', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
                           ),
                           Container(
                             child: Text(widget.pokemonDetail['weaknesses'].join(", "), style: TextStyle(color: Colors.black, fontSize: 17),),
@@ -173,7 +173,7 @@ class _DetailScreenState extends State<DetailScreen> {
                         children: [
                           Container(
                             width: width * 0.3,
-                            child: Text('Pre Evolution', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
+                            child: Text('Pre Evolución', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
                           ),
                           Container(
                               child: widget.pokemonDetail['prev_evolution'] != null ?
@@ -202,7 +202,7 @@ class _DetailScreenState extends State<DetailScreen> {
                         children: [
                           Container(
                             width: width * 0.3,
-                            child: Text('Next Evolution', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
+                            child: Text('Siguiente Evolución', style: TextStyle(color: Colors.blueGrey, fontSize: 17),),
                           ),
                           Container(
                             child: widget.pokemonDetail['next_evolution'] != null ?

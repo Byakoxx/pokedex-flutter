@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
 
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black54,
 
       body: Stack(
         children: [
@@ -53,15 +53,26 @@ class _HomeScreenState extends State<HomeScreen> {
           Positioned(
             top: 100,
             left: 20,
-            child: Text('Pokedex', style: TextStyle(
-              color: Colors.black.withOpacity(0.6),
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-            ),)
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('Pokedex', style: TextStyle(
+                  color: Colors.white.withOpacity(0.6),
+                  fontWeight: FontWeight.bold,
+                  fontSize: 30,
+                ),),
+                SizedBox(height:8.0),
+                Text('Carlos Peña', style: TextStyle(
+                color: Colors.blueAccent.withOpacity(0.6),
+            fontWeight: FontWeight.bold,
+            fontSize: 30,
+          ),),
+              ],
+            )
           ),
 
           Positioned(
-            top: 150,
+            top: 200,
             bottom: 0,
             width: width,
             child: Column(
